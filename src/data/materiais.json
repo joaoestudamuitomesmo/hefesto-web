@@ -1,0 +1,95 @@
+{
+  "servicos": ["Impressão 3D", "Prototipagem", "Peças sob demanda", "Peças de reposição"],
+  "materiais": [
+    {
+      "id": "pla",
+      "nome": "PLA",
+      "linha": "virgem",
+      "precoGrama": 0.09,
+      "descricao": "Fácil de imprimir, bom acabamento. Indicado para protótipos e peças decorativas.",
+      "cores": [
+        { "nome": "Preto", "hex": "#111111" },
+        { "nome": "Branco", "hex": "#f2f2f2" },
+        { "nome": "Vermelho", "hex": "#d62828" },
+        { "nome": "Azul", "hex": "#1d5fd1" },
+        { "nome": "Verde", "hex": "#2fa84f" }
+      ]
+    },
+    {
+      "id": "petg",
+      "nome": "PETG",
+      "linha": "virgem",
+      "precoGrama": 0.11,
+      "descricao": "Resistente a impacto e umidade, com boa adesão entre camadas.",
+      "cores": [
+        { "nome": "Preto", "hex": "#111111" },
+        { "nome": "Transparente", "hex": "#cfe3ea" },
+        { "nome": "Azul", "hex": "#1d5fd1" }
+      ]
+    },
+    {
+      "id": "abs",
+      "nome": "ABS",
+      "linha": "virgem",
+      "precoGrama": 0.12,
+      "descricao": "Resistência térmica e mecânica para peças funcionais.",
+      "cores": [
+        { "nome": "Preto", "hex": "#111111" },
+        { "nome": "Branco", "hex": "#f2f2f2" },
+        { "nome": "Cinza", "hex": "#8a8d94" }
+      ]
+    },
+    {
+      "id": "tpu",
+      "nome": "TPU",
+      "linha": "virgem",
+      "precoGrama": 0.18,
+      "descricao": "Flexível e elástico. Vedações, capas e peças que precisam absorver impacto.",
+      "cores": [
+        { "nome": "Preto", "hex": "#111111" },
+        { "nome": "Laranja", "hex": "#f28c1b" }
+      ]
+    },
+    {
+      "id": "nylon",
+      "nome": "Nylon",
+      "linha": "virgem",
+      "precoGrama": 0.22,
+      "descricao": "Alta resistência ao desgaste, usado em engrenagens e peças mecânicas.",
+      "cores": [
+        { "nome": "Natural", "hex": "#e8e2cf" },
+        { "nome": "Preto", "hex": "#111111" }
+      ]
+    },
+    {
+      "id": "fibra-de-carbono",
+      "nome": "Fibra de Carbono",
+      "linha": "virgem",
+      "precoGrama": 0.35,
+      "descricao": "Polímero reforçado, rígido e leve para aplicações de engenharia.",
+      "cores": [{ "nome": "Preto", "hex": "#111111" }]
+    },
+    {
+      "id": "eco-pla",
+      "nome": "Eco-Tech PLA",
+      "linha": "reciclado",
+      "precoGrama": 0.07,
+      "descricao": "Filamento reprocessado internamente, menor custo por grama.",
+      "cores": [
+        { "nome": "Cinza", "hex": "#8a8d94" },
+        { "nome": "Preto", "hex": "#111111" }
+      ]
+    },
+    {
+      "id": "eco-petg",
+      "nome": "Eco-Tech PETG",
+      "linha": "reciclado",
+      "precoGrama": 0.09,
+      "descricao": "PETG reciclado com certificação de resistência técnica.",
+      "cores": [
+        { "nome": "Cinza", "hex": "#8a8d94" },
+        { "nome": "Preto", "hex": "#111111" }
+      ]
+    }
+  ]
+}

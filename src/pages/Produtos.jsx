@@ -25,7 +25,7 @@ export default function Produtos() {
     <>
       <section className="secao centro">
         <Card titulo="Impressão" imagem={impressora}>
-          Envie seu modelo para impressão nas melhores impressoras do mundo.
+          Envie seu modelo para impressão nas melhores impressoras.
         </Card>
         <Link to="/orcamento" className="botao">Solicitar orçamento</Link>
       </section>

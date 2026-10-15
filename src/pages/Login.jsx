@@ -12,7 +12,7 @@ export default function Login() {
     const form = Object.fromEntries(new FormData(e.target))
 
     if (aba === 'cadastrar' && form.senha !== form.confirmar) {
-      setErro('As senhas não conferem.')
+      setErro('Senha incorreta.')
       return
     }
 
@@ -40,7 +40,7 @@ export default function Login() {
         {aba === 'cadastrar' && <input name="confirmar" type="password" placeholder="Confirmar senha" required />}
 
         {erro && <p className="aviso">{erro}</p>}
-        {aba === 'entrar' && <button type="button" className="link">Esqueci minha senha</button>}
+        {aba === 'entrar' && <button type="button" className="link">Esqueci a senha</button>}
         <button className="botao">{aba === 'entrar' ? 'Entrar' : 'Criar conta'}</button>
       </form>
     </section>
